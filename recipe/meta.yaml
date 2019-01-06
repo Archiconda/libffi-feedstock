@@ -27,6 +27,7 @@ build:
 
 requirements:
   build:
+    - make                               # [not win]
     - posix                              # [win]
     - {{posix}}autoconf
     - {{posix}}automake{{ am_version }}  # [win]
